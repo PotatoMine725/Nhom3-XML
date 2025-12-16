@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="KhachHang" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="KhachHang">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MaKhachHang" type="xs:string" minOccurs="0" />
+                <xs:element name="TenKhachHang" type="xs:string" minOccurs="0" />
+                <xs:element name="SDT" type="xs:string" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="DiaChi" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayDangKy" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <KhachHang>
+    <MaKhachHang>KH001</MaKhachHang>
+    <TenKhachHang>Phạm Văn D</TenKhachHang>
+    <SDT>0934567890</SDT>
+    <Email>pvd@example.com</Email>
+    <DiaChi>Hà Nội</DiaChi>
+    <NgayDangKy>01/01/2024</NgayDangKy>
+  </KhachHang>
+  <KhachHang>
+    <MaKhachHang>KH002</MaKhachHang>
+    <TenKhachHang>Hoàng Thị E</TenKhachHang>
+    <SDT>0945678901</SDT>
+    <Email>hte@example.com</Email>
+    <DiaChi>Hồ Chí Minh</DiaChi>
+    <NgayDangKy>05/01/2024</NgayDangKy>
+  </KhachHang>
+  <KhachHang>
+    <MaKhachHang>KH003</MaKhachHang>
+    <TenKhachHang>Vũ Văn F</TenKhachHang>
+    <SDT>0956789012</SDT>
+    <Email>vvf123@example.com</Email>
+    <DiaChi>Đà Nẵng</DiaChi>
+    <NgayDangKy>10/01/2024</NgayDangKy>
+  </KhachHang>
+</NewDataSet>

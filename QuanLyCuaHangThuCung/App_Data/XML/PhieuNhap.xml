@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="PhieuNhap" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PhieuNhap">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MaPhieu" type="xs:int" minOccurs="0" />
+                <xs:element name="MaThuCung" type="xs:string" minOccurs="0" />
+                <xs:element name="MaNhanVien" type="xs:string" minOccurs="0" />
+                <xs:element name="SoLuongNhap" type="xs:int" minOccurs="0" />
+                <xs:element name="NgayLapPhieu" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <PhieuNhap>
+    <MaPhieu>1</MaPhieu>
+    <MaThuCung>TC001</MaThuCung>
+    <MaNhanVien>ADMIN</MaNhanVien>
+    <SoLuongNhap>5</SoLuongNhap>
+    <NgayLapPhieu>01/01/2024</NgayLapPhieu>
+  </PhieuNhap>
+  <PhieuNhap>
+    <MaPhieu>2</MaPhieu>
+    <MaThuCung>TC002</MaThuCung>
+    <MaNhanVien>ADMIN</MaNhanVien>
+    <SoLuongNhap>3</SoLuongNhap>
+    <NgayLapPhieu>02/01/2024</NgayLapPhieu>
+  </PhieuNhap>
+  <PhieuNhap>
+    <MaPhieu>3</MaPhieu>
+    <MaThuCung>TC003</MaThuCung>
+    <MaNhanVien>ADMIN</MaNhanVien>
+    <SoLuongNhap>4</SoLuongNhap>
+    <NgayLapPhieu>03/01/2024</NgayLapPhieu>
+  </PhieuNhap>
+</NewDataSet>

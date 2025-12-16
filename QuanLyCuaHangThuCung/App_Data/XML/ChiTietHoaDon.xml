@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ChiTietHoaDon" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ChiTietHoaDon">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Id" type="xs:int" minOccurs="0" />
+                <xs:element name="SoHoaDon" type="xs:int" minOccurs="0" />
+                <xs:element name="MaThuCung" type="xs:string" minOccurs="0" />
+                <xs:element name="DonGia" type="xs:int" minOccurs="0" />
+                <xs:element name="SoLuong" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <ChiTietHoaDon>
+    <Id>1</Id>
+    <SoHoaDon>1</SoHoaDon>
+    <MaThuCung>TC001</MaThuCung>
+    <DonGia>5000000</DonGia>
+    <SoLuong>1</SoLuong>
+  </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <Id>2</Id>
+    <SoHoaDon>2</SoHoaDon>
+    <MaThuCung>TC003</MaThuCung>
+    <DonGia>6000000</DonGia>
+    <SoLuong>1</SoLuong>
+  </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <Id>3</Id>
+    <SoHoaDon>3</SoHoaDon>
+    <MaThuCung>TC002</MaThuCung>
+    <DonGia>8000000</DonGia>
+    <SoLuong>1</SoLuong>
+  </ChiTietHoaDon>
+</NewDataSet>

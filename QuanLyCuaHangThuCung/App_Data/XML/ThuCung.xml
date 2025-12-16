@@ -1,0 +1,132 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ThuCung" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ThuCung">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MaThuCung" type="xs:string" minOccurs="0" />
+                <xs:element name="TenThuCung" type="xs:string" minOccurs="0" />
+                <xs:element name="Loai" type="xs:string" minOccurs="0" />
+                <xs:element name="Giong" type="xs:string" minOccurs="0" />
+                <xs:element name="Tuoi" type="xs:int" minOccurs="0" />
+                <xs:element name="GioiTinh" type="xs:string" minOccurs="0" />
+                <xs:element name="Gia" type="xs:int" minOccurs="0" />
+                <xs:element name="TinhTrangSucKhoe" type="xs:string" minOccurs="0" />
+                <xs:element name="MaNCC" type="xs:string" minOccurs="0" />
+                <xs:element name="SoLuong" type="xs:int" minOccurs="0" />
+                <xs:element name="MoTa" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <ThuCung>
+    <MaThuCung>TC001</MaThuCung>
+    <TenThuCung>Chó Poodle</TenThuCung>
+    <Loai>Chó</Loai>
+    <Giong>Poodle</Giong>
+    <Tuoi>3</Tuoi>
+    <GioiTinh>Đực</GioiTinh>
+    <Gia>5000005</Gia>
+    <TinhTrangSucKhoe>Khỏe mạnh</TinhTrangSucKhoe>
+    <MaNCC>NCC01</MaNCC>
+    <SoLuong>5</SoLuong>
+    <MoTa>Chó Poodle thông minh, dễ thương</MoTa>
+  </ThuCung>
+  <ThuCung>
+    <MaThuCung>TC002</MaThuCung>
+    <TenThuCung>Chó Golden</TenThuCung>
+    <Loai>Chó</Loai>
+    <Giong>Golden Retriever</Giong>
+    <Tuoi>4</Tuoi>
+    <GioiTinh>Đực</GioiTinh>
+    <Gia>8000000</Gia>
+    <TinhTrangSucKhoe>Khỏe mạnh</TinhTrangSucKhoe>
+    <MaNCC>NCC01</MaNCC>
+    <SoLuong>3</SoLuong>
+    <MoTa>Chó Golden thân thiện, năng động</MoTa>
+  </ThuCung>
+  <ThuCung>
+    <MaThuCung>TC003</MaThuCung>
+    <TenThuCung>Mèo Anh lông ngắn</TenThuCung>
+    <Loai>Mèo</Loai>
+    <Giong>British Shorthair</Giong>
+    <Tuoi>2</Tuoi>
+    <GioiTinh>Cái</GioiTinh>
+    <Gia>6000000</Gia>
+    <TinhTrangSucKhoe>Khỏe mạnh</TinhTrangSucKhoe>
+    <MaNCC>NCC01</MaNCC>
+    <SoLuong>4</SoLuong>
+    <MoTa>Mèo Anh lông ngắn đáng yêu</MoTa>
+  </ThuCung>
+  <ThuCung>
+    <MaThuCung>TC004</MaThuCung>
+    <TenThuCung>Mèo Ba Tư</TenThuCung>
+    <Loai>Mèo</Loai>
+    <Giong>Persian</Giong>
+    <Tuoi>3</Tuoi>
+    <GioiTinh>Cái</GioiTinh>
+    <Gia>7000000</Gia>
+    <TinhTrangSucKhoe>Khỏe mạnh</TinhTrangSucKhoe>
+    <MaNCC>NCC01</MaNCC>
+    <SoLuong>2</SoLuong>
+    <MoTa>Mèo Ba Tư lông dài, sang trọng</MoTa>
+  </ThuCung>
+  <ThuCung>
+    <MaThuCung>TC005</MaThuCung>
+    <TenThuCung>Chim Vẹt</TenThuCung>
+    <Loai>Chim</Loai>
+    <Giong>Vẹt xanh</Giong>
+    <Tuoi>1</Tuoi>
+    <GioiTinh>Đực</GioiTinh>
+    <Gia>2000000</Gia>
+    <TinhTrangSucKhoe>Khỏe mạnh</TinhTrangSucKhoe>
+    <MaNCC>NCC02</MaNCC>
+    <SoLuong>6</SoLuong>
+    <MoTa>Chim vẹt biết nói</MoTa>
+  </ThuCung>
+  <ThuCung>
+    <MaThuCung>TC006</MaThuCung>
+    <TenThuCung>Cá Koi</TenThuCung>
+    <Loai>Cá</Loai>
+    <Giong>Koi Nhật</Giong>
+    <Tuoi>6</Tuoi>
+    <GioiTinh>Đực</GioiTinh>
+    <Gia>3000000</Gia>
+    <TinhTrangSucKhoe>Khỏe mạnh</TinhTrangSucKhoe>
+    <MaNCC>NCC02</MaNCC>
+    <SoLuong>10</SoLuong>
+    <MoTa>Cá Koi đẹp, màu sắc rực rỡ</MoTa>
+  </ThuCung>
+  <ThuCung>
+    <MaThuCung>TC007</MaThuCung>
+    <TenThuCung>Chó Husky</TenThuCung>
+    <Loai>Chó</Loai>
+    <Giong>Husky</Giong>
+    <Tuoi>5</Tuoi>
+    <GioiTinh>Đực</GioiTinh>
+    <Gia>12000000</Gia>
+    <TinhTrangSucKhoe>Khỏe mạnh</TinhTrangSucKhoe>
+    <MaNCC>NCC03</MaNCC>
+    <SoLuong>2</SoLuong>
+    <MoTa>Chó Husky đẹp, thông minh</MoTa>
+  </ThuCung>
+  <ThuCung>
+    <MaThuCung>TC008</MaThuCung>
+    <TenThuCung>Mèo Ragdoll</TenThuCung>
+    <Loai>Mèo</Loai>
+    <Giong>Ragdoll</Giong>
+    <Tuoi>2</Tuoi>
+    <GioiTinh>Cái</GioiTinh>
+    <Gia>9000000</Gia>
+    <TinhTrangSucKhoe>Khỏe mạnh</TinhTrangSucKhoe>
+    <MaNCC>NCC03</MaNCC>
+    <SoLuong>3</SoLuong>
+    <MoTa>Mèo Ragdoll hiền lành</MoTa>
+  </ThuCung>
+</NewDataSet>

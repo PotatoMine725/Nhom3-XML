@@ -1,0 +1,14 @@
+D:\College\Year_3\125\XML\demo\QuanLySieuThi\QuanLyCuaHangThuCung\bin\QuanLyCuaHangThuCung.dll.config
+D:\College\Year_3\125\XML\demo\QuanLySieuThi\QuanLyCuaHangThuCung\bin\QuanLyCuaHangThuCung.dll
+D:\College\Year_3\125\XML\demo\QuanLySieuThi\QuanLyCuaHangThuCung\bin\QuanLyCuaHangThuCung.pdb
+D:\College\Year_3\125\XML\demo\QuanLySieuThi\QuanLyCuaHangThuCung\obj\Debug\QuanLyCuaHangThuCung.csproj.AssemblyReference.cache
+D:\College\Year_3\125\XML\demo\QuanLySieuThi\QuanLyCuaHangThuCung\obj\Debug\QuanLyCuaHangThuCung.csproj.CoreCompileInputs.cache
+D:\College\Year_3\125\XML\demo\QuanLySieuThi\QuanLyCuaHangThuCung\obj\Debug\QuanLyCuaHangThuCung.dll
+D:\College\Year_3\125\XML\demo\QuanLySieuThi\QuanLyCuaHangThuCung\obj\Debug\QuanLyCuaHangThuCung.pdb
+D:\Work\QuanLyCuaHangThuCung\bin\QuanLyCuaHangThuCung.dll.config
+D:\Work\QuanLyCuaHangThuCung\bin\QuanLyCuaHangThuCung.dll
+D:\Work\QuanLyCuaHangThuCung\bin\QuanLyCuaHangThuCung.pdb
+D:\Work\QuanLyCuaHangThuCung\obj\Debug\QuanLyCuaHangThuCung.csproj.AssemblyReference.cache
+D:\Work\QuanLyCuaHangThuCung\obj\Debug\QuanLyCuaHangThuCung.csproj.CoreCompileInputs.cache
+D:\Work\QuanLyCuaHangThuCung\obj\Debug\QuanLyCuaHangThuCung.dll
+D:\Work\QuanLyCuaHangThuCung\obj\Debug\QuanLyCuaHangThuCung.pdb

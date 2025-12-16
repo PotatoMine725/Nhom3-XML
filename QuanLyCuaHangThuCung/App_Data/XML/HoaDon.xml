@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="HoaDon" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="HoaDon">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SoHoaDon" type="xs:int" minOccurs="0" />
+                <xs:element name="MaNhanVien" type="xs:string" minOccurs="0" />
+                <xs:element name="MaKhachHang" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayLap" type="xs:string" minOccurs="0" />
+                <xs:element name="TongTien" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <HoaDon>
+    <SoHoaDon>1</SoHoaDon>
+    <MaNhanVien>NV001</MaNhanVien>
+    <MaKhachHang>KH001</MaKhachHang>
+    <NgayLap>15/01/2024</NgayLap>
+    <TongTien>5000000</TongTien>
+  </HoaDon>
+  <HoaDon>
+    <SoHoaDon>2</SoHoaDon>
+    <MaNhanVien>NV002</MaNhanVien>
+    <MaKhachHang>KH002</MaKhachHang>
+    <NgayLap>16/01/2024</NgayLap>
+    <TongTien>6000000</TongTien>
+  </HoaDon>
+  <HoaDon>
+    <SoHoaDon>3</SoHoaDon>
+    <MaNhanVien>NV001</MaNhanVien>
+    <MaKhachHang>KH003</MaKhachHang>
+    <NgayLap>17/01/2024</NgayLap>
+    <TongTien>8000000</TongTien>
+  </HoaDon>
+</NewDataSet>

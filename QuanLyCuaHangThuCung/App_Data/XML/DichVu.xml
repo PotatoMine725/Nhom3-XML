@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DichVu" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DichVu">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MaDichVu" type="xs:string" minOccurs="0" />
+                <xs:element name="TenDichVu" type="xs:string" minOccurs="0" />
+                <xs:element name="Gia" type="xs:int" minOccurs="0" />
+                <xs:element name="MoTa" type="xs:string" minOccurs="0" />
+                <xs:element name="ThoiGian" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DichVu>
+    <MaDichVu>DV001</MaDichVu>
+    <TenDichVu>Tắm rửa</TenDichVu>
+    <Gia>200000</Gia>
+    <MoTa>Tắm rửa và vệ sinh cho thú cưng</MoTa>
+    <ThoiGian>30 phút</ThoiGian>
+  </DichVu>
+  <DichVu>
+    <MaDichVu>DV002</MaDichVu>
+    <TenDichVu>Cắt tỉa lông</TenDichVu>
+    <Gia>300000</Gia>
+    <MoTa>Cắt tỉa lông chuyên nghiệp</MoTa>
+    <ThoiGian>45 phút</ThoiGian>
+  </DichVu>
+  <DichVu>
+    <MaDichVu>DV003</MaDichVu>
+    <TenDichVu>Khám sức khỏe</TenDichVu>
+    <Gia>500000</Gia>
+    <MoTa>Khám sức khỏe tổng quát</MoTa>
+    <ThoiGian>60 phút</ThoiGian>
+  </DichVu>
+  <DichVu>
+    <MaDichVu>DV004</MaDichVu>
+    <TenDichVu>Tiêm phòng</TenDichVu>
+    <Gia>400000</Gia>
+    <MoTa>Tiêm phòng các bệnh thường gặp</MoTa>
+    <ThoiGian>30 phút</ThoiGian>
+  </DichVu>
+</NewDataSet>

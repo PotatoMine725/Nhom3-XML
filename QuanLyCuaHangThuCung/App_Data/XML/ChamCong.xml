@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ChamCong" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ChamCong">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Id" type="xs:int" minOccurs="0" />
+                <xs:element name="MaNhanVien" type="xs:string" minOccurs="0" />
+                <xs:element name="Ngay" type="xs:int" minOccurs="0" />
+                <xs:element name="Thang" type="xs:int" minOccurs="0" />
+                <xs:element name="Nam" type="xs:int" minOccurs="0" />
+                <xs:element name="GioVao" type="xs:string" minOccurs="0" />
+                <xs:element name="GioRa" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <ChamCong>
+    <Id>1</Id>
+    <MaNhanVien>NV001</MaNhanVien>
+    <Ngay>15</Ngay>
+    <Thang>1</Thang>
+    <Nam>2024</Nam>
+    <GioVao>08:00</GioVao>
+    <GioRa>17:00</GioRa>
+  </ChamCong>
+  <ChamCong>
+    <Id>2</Id>
+    <MaNhanVien>NV002</MaNhanVien>
+    <Ngay>15</Ngay>
+    <Thang>1</Thang>
+    <Nam>2024</Nam>
+    <GioVao>08:00</GioVao>
+    <GioRa>17:00</GioRa>
+  </ChamCong>
+  <ChamCong>
+    <Id>3</Id>
+    <MaNhanVien>NV003</MaNhanVien>
+    <Ngay>15</Ngay>
+    <Thang>1</Thang>
+    <Nam>2024</Nam>
+    <GioVao>08:00</GioVao>
+    <GioRa>17:00</GioRa>
+  </ChamCong>
+  <ChamCong>
+    <Id>4</Id>
+    <MaNhanVien>NV001</MaNhanVien>
+    <Ngay>16</Ngay>
+    <Thang>12</Thang>
+    <Nam>2025</Nam>
+    <GioVao>10:02</GioVao>
+  </ChamCong>
+</NewDataSet>

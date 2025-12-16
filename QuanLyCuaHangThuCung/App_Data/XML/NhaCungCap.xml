@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="NhaCungCap" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="NhaCungCap">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MaNCC" type="xs:string" minOccurs="0" />
+                <xs:element name="TenNCC" type="xs:string" minOccurs="0" />
+                <xs:element name="DiaChi" type="xs:string" minOccurs="0" />
+                <xs:element name="SDT" type="xs:string" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="MoTa" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <NhaCungCap>
+    <MaNCC>NCC01</MaNCC>
+    <TenNCC>Trang trại thú cưng ABC</TenNCC>
+    <DiaChi>Hà Nội</DiaChi>
+    <SDT>0901234567</SDT>
+    <Email>abc@example.com</Email>
+    <MoTa>Chuyên cung cấp chó mèo</MoTa>
+  </NhaCungCap>
+  <NhaCungCap>
+    <MaNCC>NCC02</MaNCC>
+    <TenNCC>Cửa hàng thú cưng XYZ</TenNCC>
+    <DiaChi>Hồ Chí Minh</DiaChi>
+    <SDT>0912345678</SDT>
+    <Email>xyz@example.com</Email>
+    <MoTa>Chuyên cung cấp chim cá</MoTa>
+  </NhaCungCap>
+  <NhaCungCap>
+    <MaNCC>NCC03</MaNCC>
+    <TenNCC>Trang trại thú cưng DEF</TenNCC>
+    <DiaChi>Đà Nẵng</DiaChi>
+    <SDT>0923456789</SDT>
+    <Email>def@example.com</Email>
+    <MoTa>Cung cấp đa dạng thú cưng</MoTa>
+  </NhaCungCap>
+  <NhaCungCap>
+    <MaNCC>NCC04</MaNCC>
+    <TenNCC>Nhà cung cấp thức ăn thú cưng</TenNCC>
+    <DiaChi>Hà Nội</DiaChi>
+    <SDT>0905550821</SDT>
+    <Email>a@example.com</Email>
+    <MoTa />
+  </NhaCungCap>
+</NewDataSet>
