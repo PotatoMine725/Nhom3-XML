@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace QuanLyCuaHangThuCung.Employee
+namespace QuanLyCuaHangThuCung.Admin
 {
 
 
-    public partial class QuanLyKhachHang
+    public partial class DongBoDuLieu
     {
 
         /// <summary>
@@ -24,130 +24,85 @@ namespace QuanLyCuaHangThuCung.Employee
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// txtMaKhachHang control.
+        /// btnXuatSQLToXML control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMaKhachHang;
+        protected global::System.Web.UI.WebControls.Button btnXuatSQLToXML;
 
         /// <summary>
-        /// txtTenKhachHang control.
+        /// divXuatResult control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTenKhachHang;
+        protected global::System.Web.UI.WebControls.Panel divXuatResult;
 
         /// <summary>
-        /// txtSDT control.
+        /// lblXuatResult control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSDT;
+        protected global::System.Web.UI.WebControls.Label lblXuatResult;
 
         /// <summary>
-        /// txtEmail control.
+        /// btnImportXMLToSQL control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+        protected global::System.Web.UI.WebControls.Button btnImportXMLToSQL;
 
         /// <summary>
-        /// txtDiaChi control.
+        /// divImportResult control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDiaChi;
+        protected global::System.Web.UI.WebControls.Panel divImportResult;
 
         /// <summary>
-        /// btnThem control.
+        /// lblImportResult control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnThem;
+        protected global::System.Web.UI.WebControls.Label lblImportResult;
 
         /// <summary>
-        /// btnSua control.
+        /// btnDongBo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSua;
+        protected global::System.Web.UI.WebControls.Button btnDongBo;
 
         /// <summary>
-        /// btnXoa control.
+        /// divDongBoResult control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnXoa;
+        protected global::System.Web.UI.WebControls.Panel divDongBoResult;
 
         /// <summary>
-        /// btnReset control.
+        /// lblDongBoResult control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnReset;
-
-        /// <summary>
-        /// lblThongBao control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblThongBao;
-
-        /// <summary>
-        /// txtTimKiem control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTimKiem;
-
-        /// <summary>
-        /// btnTimKiem control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnTimKiem;
-
-        /// <summary>
-        /// gvKhachHang control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvKhachHang;
-
-        /// <summary>
-        /// gvLichSuMuaHang control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvLichSuMuaHang;
+        protected global::System.Web.UI.WebControls.Label lblDongBoResult;
     }
 }
 
